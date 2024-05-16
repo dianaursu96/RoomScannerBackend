@@ -1,0 +1,740 @@
+[
+  {
+    "id": 1,
+    "name": "Hotel Ramada",
+    "latitude": 46.764654252624204,
+    "longitude": 23.598674125224626,
+    "imageURL": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/126728271.jpg?k=53edae9ba09cdb343a2440a88e258ff72604a1c77ac911d92010d139f6321555&o=&hp=1",
+    "rooms": [
+      {
+        "id": 1,
+        "number": 1,
+        "type": 0,
+        "price": 250,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
+      },
+      {
+        "id": 2,
+        "number": 2,
+        "type": 0,
+        "price": 250,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
+      },
+      {
+        "id": 3,
+        "number": 3,
+        "type": 1,
+        "price": 300,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
+      },
+      {
+        "id": 4,
+        "number": 4,
+        "type": 1,
+        "price": 300,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
+      },
+      {
+        "id": 5,
+        "number": 5,
+        "type": 2,
+        "price": 350,
+        "isAvailable": true,
+        "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
+      },
+      {
+        "id": 6,
+        "number": 6,
+        "type": 2,
+        "price": 350,
+        "isAvailable": true,
+        "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
+      },
+      {
+        "id": 7,
+        "number": 7,
+        "type": 3,
+        "price": 450,
+        "isAvailable": false,
+        "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
+      },
+      {
+        "id": 8,
+        "number": 8,
+        "type": 3,
+        "price": 450,
+        "isAvailable": false,
+        "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Grand Hotel Italia",
+    "latitude": 46.7522792440665,
+    "longitude": 23.605990381045697,
+    "imageURL": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/363147061.jpg?k=4be066d42a31f10b287409275cf8eb486e2f272ea3c01d1ac649f8c6fa599d32&o=&hp=1",
+    "rooms": [
+      {
+        "id": 9,
+        "number": 1,
+        "type": 0,
+        "price": 250,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
+      },
+      {
+        "id": 10,
+        "number": 2,
+        "type": 0,
+        "price": 250,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
+      },
+      {
+        "id": 11,
+        "number": 3,
+        "type": 0,
+        "price": 250,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
+      },
+      {
+        "id": 12,
+        "number": 4,
+        "type": 1,
+        "price": 300,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
+      },
+      {
+        "id": 13,
+        "number": 5,
+        "type": 1,
+        "price": 300,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
+      },
+      {
+        "id": 14,
+        "number": 6,
+        "type": 2,
+        "price": 350,
+        "isAvailable": true,
+        "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
+      },
+      {
+        "id": 15,
+        "number": 7,
+        "type": 2,
+        "price": 350,
+        "isAvailable": true,
+        "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
+      },
+      {
+        "id": 16,
+        "number": 8,
+        "type": 3,
+        "price": 450,
+        "isAvailable": false,
+        "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
+      },
+      {
+        "id": 17,
+        "number": 9,
+        "type": 3,
+        "price": 450,
+        "isAvailable": false,
+        "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Hampton by Hilton",
+    "latitude": 46.77539900854998,
+    "longitude": 23.60182699638966,
+    "imageURL": "https://www.hilton.com/im/en/WAWAPHX/2768675/exterior-evening.jpg?impolicy=crop&cw=5000&ch=2799&gravity=NorthWest&xposition=0&yposition=266&rw=768&rh=430",
+    "rooms": [
+      {
+        "id": 18,
+        "number": 1,
+        "type": 0,
+        "price": 250,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
+      },
+      {
+        "id": 19,
+        "number": 2,
+        "type": 0,
+        "price": 250,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
+      },
+      {
+        "id": 20,
+        "number": 3,
+        "type": 1,
+        "price": 300,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
+      },
+      {
+        "id": 21,
+        "number": 4,
+        "type": 1,
+        "price": 300,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
+      },
+      {
+        "id": 22,
+        "number": 5,
+        "type": 2,
+        "price": 350,
+        "isAvailable": true,
+        "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
+      },
+      {
+        "id": 23,
+        "number": 6,
+        "type": 2,
+        "price": 350,
+        "isAvailable": true,
+        "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
+      },
+      {
+        "id": 24,
+        "number": 7,
+        "type": 3,
+        "price": 450,
+        "isAvailable": false,
+        "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
+      },
+      {
+        "id": 25,
+        "number": 8,
+        "type": 3,
+        "price": 450,
+        "isAvailable": false,
+        "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Hotel Paso",
+    "latitude": 46.76019918985039,
+    "longitude": 23.59826762026841,
+    "imageURL": "https://www.hilton.com/im/en/WAWAPHX/2768675/exterior-evening.jpg?impolicy=crop&cw=5000&ch=2799&gravity=NorthWest&xposition=0&yposition=266&rw=768&rh=430",
+    "rooms": [
+      {
+        "id": 26,
+        "number": 1,
+        "type": 0,
+        "price": 250,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
+      },
+      {
+        "id": 27,
+        "number": 2,
+        "type": 0,
+        "price": 250,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
+      },
+      {
+        "id": 28,
+        "number": 3,
+        "type": 1,
+        "price": 300,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
+      },
+      {
+        "id": 29,
+        "number": 4,
+        "type": 1,
+        "price": 300,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
+      },
+      {
+        "id": 30,
+        "number": 5,
+        "type": 2,
+        "price": 350,
+        "isAvailable": true,
+        "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
+      },
+      {
+        "id": 31,
+        "number": 6,
+        "type": 2,
+        "price": 350,
+        "isAvailable": true,
+        "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
+      },
+      {
+        "id": 32,
+        "number": 7,
+        "type": 3,
+        "price": 450,
+        "isAvailable": false,
+        "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
+      },
+      {
+        "id": 33,
+        "number": 8,
+        "type": 3,
+        "price": 450,
+        "isAvailable": false,
+        "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Radisson Blue Hotel",
+    "latitude": 46.76808235771531,
+    "longitude": 23.573954540191043,
+    "imageURL": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/398691072.jpg?k=61693acdb9f6d1425c9e30fd2af5bc4e087b8d9c1e341851014d4008c9b56f61&o=&hp=1",
+    "rooms": [
+      {
+        "id": 34,
+        "number": 1,
+        "type": 0,
+        "price": 250,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
+      },
+      {
+        "id": 35,
+        "number": 2,
+        "type": 0,
+        "price": 250,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
+      },
+      {
+        "id": 36,
+        "number": 3,
+        "type": 1,
+        "price": 300,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
+      },
+      {
+        "id": 37,
+        "number": 4,
+        "type": 1,
+        "price": 300,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
+      },
+      {
+        "id": 38,
+        "number": 5,
+        "type": 2,
+        "price": 350,
+        "isAvailable": true,
+        "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
+      },
+      {
+        "id": 39,
+        "number": 6,
+        "type": 2,
+        "price": 350,
+        "isAvailable": true,
+        "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
+      },
+      {
+        "id": 40,
+        "number": 7,
+        "type": 3,
+        "price": 450,
+        "isAvailable": false,
+        "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
+      },
+      {
+        "id": 41,
+        "number": 8,
+        "type": 3,
+        "price": 450,
+        "isAvailable": false,
+        "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Hotel Vibre",
+    "latitude": 46.76539897447293,
+    "longitude": 23.60509620693417,
+    "imageURL": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/499670456.jpg?k=36d132a06b94afcb047c888ecc172b2828a17e97ab74ecdc1c740d4864ed9474&o=&hp=1",
+    "rooms": [
+      {
+        "id": 42,
+        "number": 1,
+        "type": 0,
+        "price": 250,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
+      },
+      {
+        "id": 43,
+        "number": 2,
+        "type": 0,
+        "price": 250,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
+      },
+      {
+        "id": 44,
+        "number": 3,
+        "type": 1,
+        "price": 300,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
+      },
+      {
+        "id": 45,
+        "number": 4,
+        "type": 1,
+        "price": 300,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
+      },
+      {
+        "id": 46,
+        "number": 5,
+        "type": 2,
+        "price": 350,
+        "isAvailable": true,
+        "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
+      },
+      {
+        "id": 47,
+        "number": 6,
+        "type": 2,
+        "price": 350,
+        "isAvailable": true,
+        "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
+      },
+      {
+        "id": 48,
+        "number": 7,
+        "type": 3,
+        "price": 450,
+        "isAvailable": false,
+        "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
+      },
+      {
+        "id": 49,
+        "number": 8,
+        "type": 3,
+        "price": 450,
+        "isAvailable": false,
+        "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Grand Hotel Napoca",
+    "latitude": 46.771849254802895,
+    "longitude": 23.576198651406617,
+    "imageURL": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/27547805.jpg?k=3fbc6973cc772c06ea26888a4e4da4886e345364f0d9accf9626d1a29dfd67a4&o=&hp=1",
+    "rooms": [
+      {
+        "id": 50,
+        "number": 1,
+        "type": 0,
+        "price": 250,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
+      },
+      {
+        "id": 51,
+        "number": 2,
+        "type": 0,
+        "price": 250,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
+      },
+      {
+        "id": 52,
+        "number": 3,
+        "type": 1,
+        "price": 300,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
+      },
+      {
+        "id": 53,
+        "number": 4,
+        "type": 1,
+        "price": 300,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
+      },
+      {
+        "id": 54,
+        "number": 5,
+        "type": 2,
+        "price": 350,
+        "isAvailable": true,
+        "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
+      },
+      {
+        "id": 55,
+        "number": 6,
+        "type": 2,
+        "price": 350,
+        "isAvailable": true,
+        "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
+      },
+      {
+        "id": 56,
+        "number": 7,
+        "type": 3,
+        "price": 450,
+        "isAvailable": false,
+        "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
+      },
+      {
+        "id": 57,
+        "number": 8,
+        "type": 3,
+        "price": 450,
+        "isAvailable": false,
+        "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Hotel Platinia",
+    "latitude": 46.76352817315791,
+    "longitude": 23.572157426088914,
+    "imageURL": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/119806930.jpg?k=ff80d42c31cc7dec15c3734383848e9eccadbf216383b5f54357cc26b6875864&o=&hp=1",
+    "rooms": [
+      {
+        "id": 58,
+        "number": 1,
+        "type": 0,
+        "price": 250,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
+      },
+      {
+        "id": 59,
+        "number": 2,
+        "type": 0,
+        "price": 250,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
+      },
+      {
+        "id": 60,
+        "number": 3,
+        "type": 1,
+        "price": 300,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
+      },
+      {
+        "id": 61,
+        "number": 4,
+        "type": 1,
+        "price": 300,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
+      },
+      {
+        "id": 62,
+        "number": 5,
+        "type": 2,
+        "price": 350,
+        "isAvailable": true,
+        "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
+      },
+      {
+        "id": 63,
+        "number": 6,
+        "type": 2,
+        "price": 350,
+        "isAvailable": true,
+        "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
+      },
+      {
+        "id": 64,
+        "number": 7,
+        "type": 3,
+        "price": 450,
+        "isAvailable": false,
+        "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
+      },
+      {
+        "id": 65,
+        "number": 8,
+        "type": 3,
+        "price": 450,
+        "isAvailable": false,
+        "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Hotel River Park",
+    "latitude": 46.76824356511281,
+    "longitude": 23.556530751401198,
+    "imageURL": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/228345064.jpg?k=d8e3971e0921b2f1ca1b03560cce28278318e09ae36a64a365277f23732fe1cf&o=&hp=1",
+    "rooms": [
+      {
+        "id": 66,
+        "number": 1,
+        "type": 0,
+        "price": 250,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
+      },
+      {
+        "id": 67,
+        "number": 2,
+        "type": 0,
+        "price": 250,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
+      },
+      {
+        "id": 68,
+        "number": 3,
+        "type": 1,
+        "price": 300,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
+      },
+      {
+        "id": 69,
+        "number": 4,
+        "type": 1,
+        "price": 300,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
+      },
+      {
+        "id": 70,
+        "number": 5,
+        "type": 2,
+        "price": 350,
+        "isAvailable": true,
+        "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
+      },
+      {
+        "id": 71,
+        "number": 6,
+        "type": 2,
+        "price": 350,
+        "isAvailable": true,
+        "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
+      },
+      {
+        "id": 72,
+        "number": 7,
+        "type": 3,
+        "price": 450,
+        "isAvailable": false,
+        "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
+      },
+      {
+        "id": 73,
+        "number": 8,
+        "type": 3,
+        "price": 450,
+        "isAvailable": false,
+        "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Royal Classic Hotel",
+    "latitude": 46.76474024127173,
+    "longitude": 23.621088763221397,
+    "imageURL": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/362140969.jpg?k=c5be16016534300893d063cb4d60a2273b04329102880351fc4851a8a92e53e7&o=&hp=1",
+    "rooms": [
+      {
+        "id": 74,
+        "number": 1,
+        "type": 0,
+        "price": 250,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
+      },
+      {
+        "id": 75,
+        "number": 2,
+        "type": 0,
+        "price": 250,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
+      },
+      {
+        "id": 76,
+        "number": 3,
+        "type": 1,
+        "price": 300,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
+      },
+      {
+        "id": 77,
+        "number": 4,
+        "type": 1,
+        "price": 300,
+        "isAvailable": true,
+        "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
+      },
+      {
+        "id": 78,
+        "number": 5,
+        "type": 2,
+        "price": 350,
+        "isAvailable": true,
+        "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
+      },
+      {
+        "id": 79,
+        "number": 6,
+        "type": 2,
+        "price": 350,
+        "isAvailable": true,
+        "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
+      },
+      {
+        "id": 80,
+        "number": 7,
+        "type": 3,
+        "price": 450,
+        "isAvailable": false,
+        "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
+      },
+      {
+        "id": 81,
+        "number": 8,
+        "type": 3,
+        "price": 450,
+        "isAvailable": false,
+        "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
+      }
+    ]
+  }
+]
