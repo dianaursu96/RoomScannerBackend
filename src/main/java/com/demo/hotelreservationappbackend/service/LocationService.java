@@ -38,12 +38,14 @@ public class LocationService {
             hotelInRangeResponseDTO.setImageURL(hotel.getImageURL());
             hotelInRangeResponseDTO.setReviews(hotel.getReviews());
             hotelInRangeResponseDTO.setRooms(hotel.getRooms());
-            hotelInRangeResponseDTO.setAverageRate(averageRatingForHotel(hotel));
+            hotelInRangeResponseDTO.setRating(averageRatingForHotel(hotel));
+            hotelInRangeResponseDTO.setLatitude(hotel.getLatitude());
+            hotelInRangeResponseDTO.setLongitude(hotel.getLongitude());
 
             // use the GCD formula to get distance from the center
             double distance = getDistance(hotel, userLatitudeRad, userLongitudeRad);
             if (distance <= radius) {
-                hotelInRangeResponseDTO.setDistanceFromCenter((int) distance);
+                hotelInRangeResponseDTO.setDistanceFromCenter((int) (distance * 1000));
                 hotelsInRangeResponseDTO.add(hotelInRangeResponseDTO);
             }
         }
