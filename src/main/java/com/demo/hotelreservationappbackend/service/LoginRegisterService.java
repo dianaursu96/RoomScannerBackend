@@ -140,6 +140,7 @@ public class LoginRegisterService {
         userRepository.delete(user);
     }
 
+    // helpers
 
     private boolean isValidEmail(String email) {
         return email != null && email.contains("@") && email.contains(".");

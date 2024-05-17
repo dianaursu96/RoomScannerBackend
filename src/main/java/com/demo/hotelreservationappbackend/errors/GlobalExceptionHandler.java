@@ -41,4 +41,8 @@ public class GlobalExceptionHandler {
     public ResponseEntity<String> handleRoomNotAvailableException(RoomNotAvailableException ex) {
         return new ResponseEntity<>(ex.getMessage(), HttpStatus.CONFLICT);
     }
+    @ExceptionHandler(ReservationCancellationException.class)
+    public ResponseEntity<String> handleReservationCancellationException(ReservationCancellationException ex) {
+        return new ResponseEntity<>(ex.getMessage(), HttpStatus.METHOD_NOT_ALLOWED);
+    }
 }

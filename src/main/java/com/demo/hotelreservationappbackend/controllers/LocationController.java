@@ -1,5 +1,6 @@
 package com.demo.hotelreservationappbackend.controllers;
 
+import com.demo.hotelreservationappbackend.dtos.HotelInRangeResponseDTO;
 import com.demo.hotelreservationappbackend.dtos.LocationRequestDTO;
 import com.demo.hotelreservationappbackend.models.Hotel;
 import com.demo.hotelreservationappbackend.service.LocationService;
@@ -8,17 +9,13 @@ import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 
 @RestController
 @RequestMapping(path = "/location")
-//@PreAuthorize("hasAnyAuthority('USER', 'ADMIN')")
 public class LocationController {
 
     private final LocationService locationService;
@@ -29,12 +26,11 @@ public class LocationController {
     }
 
 
-    @PostMapping("/hotels")
-    public ResponseEntity<List<Hotel>> getHotelsInRange(@RequestBody LocationRequestDTO locationRequestDTO) {
-        List<Hotel> hotelsInRange = locationService.getHotelsInRange(locationRequestDTO);
+    @GetMapping("/hotels")
+    public ResponseEntity<List<HotelInRangeResponseDTO>> getHotelsInRange(@RequestParam double userLatitude,
+                                                                          @RequestParam double userLongitude,
+                                                                          @RequestParam int radius) {
+        List<HotelInRangeResponseDTO> hotelsInRange = locationService.getHotelsInRange(userLatitude, userLongitude, radius);
         return ResponseEntity.ok(hotelsInRange);
     }
-
-
-
 }

@@ -31,9 +31,6 @@ public class Room {
     @Column(name = "price")
     private Integer price;
 
-    @Column(name = "is_available")
-    private Boolean isAvailable;
-
     @Column(name = "image_url")
     private String imageURL;
 

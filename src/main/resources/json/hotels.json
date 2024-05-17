@@ -11,7 +11,7 @@
         "number": 1,
         "type": 0,
         "price": 250,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
       },
       {
@@ -19,7 +19,7 @@
         "number": 2,
         "type": 0,
         "price": 250,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
       },
       {
@@ -27,7 +27,7 @@
         "number": 3,
         "type": 1,
         "price": 300,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
       },
       {
@@ -35,7 +35,7 @@
         "number": 4,
         "type": 1,
         "price": 300,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
       },
       {
@@ -43,7 +43,7 @@
         "number": 5,
         "type": 2,
         "price": 350,
-        "isAvailable": true,
+        
         "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
       },
       {
@@ -51,7 +51,7 @@
         "number": 6,
         "type": 2,
         "price": 350,
-        "isAvailable": true,
+        
         "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
       },
       {
@@ -59,7 +59,7 @@
         "number": 7,
         "type": 3,
         "price": 450,
-        "isAvailable": false,
+        
         "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
       },
       {
@@ -67,7 +67,7 @@
         "number": 8,
         "type": 3,
         "price": 450,
-        "isAvailable": false,
+        
         "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
       }
     ]
@@ -84,7 +84,7 @@
         "number": 1,
         "type": 0,
         "price": 250,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
       },
       {
@@ -92,7 +92,7 @@
         "number": 2,
         "type": 0,
         "price": 250,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
       },
       {
@@ -100,7 +100,7 @@
         "number": 3,
         "type": 0,
         "price": 250,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
       },
       {
@@ -108,7 +108,7 @@
         "number": 4,
         "type": 1,
         "price": 300,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
       },
       {
@@ -116,7 +116,7 @@
         "number": 5,
         "type": 1,
         "price": 300,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
       },
       {
@@ -124,7 +124,7 @@
         "number": 6,
         "type": 2,
         "price": 350,
-        "isAvailable": true,
+        
         "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
       },
       {
@@ -132,7 +132,7 @@
         "number": 7,
         "type": 2,
         "price": 350,
-        "isAvailable": true,
+        
         "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
       },
       {
@@ -140,7 +140,7 @@
         "number": 8,
         "type": 3,
         "price": 450,
-        "isAvailable": false,
+        
         "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
       },
       {
@@ -148,7 +148,7 @@
         "number": 9,
         "type": 3,
         "price": 450,
-        "isAvailable": false,
+        
         "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
       }
     ]
@@ -165,7 +165,7 @@
         "number": 1,
         "type": 0,
         "price": 250,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
       },
       {
@@ -173,7 +173,7 @@
         "number": 2,
         "type": 0,
         "price": 250,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
       },
       {
@@ -181,7 +181,7 @@
         "number": 3,
         "type": 1,
         "price": 300,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
       },
       {
@@ -189,7 +189,7 @@
         "number": 4,
         "type": 1,
         "price": 300,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
       },
       {
@@ -197,7 +197,7 @@
         "number": 5,
         "type": 2,
         "price": 350,
-        "isAvailable": true,
+        
         "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
       },
       {
@@ -205,7 +205,7 @@
         "number": 6,
         "type": 2,
         "price": 350,
-        "isAvailable": true,
+        
         "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
       },
       {
@@ -213,7 +213,7 @@
         "number": 7,
         "type": 3,
         "price": 450,
-        "isAvailable": false,
+        
         "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
       },
       {
@@ -221,7 +221,7 @@
         "number": 8,
         "type": 3,
         "price": 450,
-        "isAvailable": false,
+        
         "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
       }
     ]
@@ -238,7 +238,7 @@
         "number": 1,
         "type": 0,
         "price": 250,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
       },
       {
@@ -246,7 +246,7 @@
         "number": 2,
         "type": 0,
         "price": 250,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
       },
       {
@@ -254,7 +254,7 @@
         "number": 3,
         "type": 1,
         "price": 300,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
       },
       {
@@ -262,7 +262,7 @@
         "number": 4,
         "type": 1,
         "price": 300,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
       },
       {
@@ -270,7 +270,7 @@
         "number": 5,
         "type": 2,
         "price": 350,
-        "isAvailable": true,
+        
         "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
       },
       {
@@ -278,7 +278,7 @@
         "number": 6,
         "type": 2,
         "price": 350,
-        "isAvailable": true,
+        
         "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
       },
       {
@@ -286,7 +286,7 @@
         "number": 7,
         "type": 3,
         "price": 450,
-        "isAvailable": false,
+        
         "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
       },
       {
@@ -294,7 +294,7 @@
         "number": 8,
         "type": 3,
         "price": 450,
-        "isAvailable": false,
+        
         "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
       }
     ]
@@ -311,7 +311,7 @@
         "number": 1,
         "type": 0,
         "price": 250,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
       },
       {
@@ -319,7 +319,7 @@
         "number": 2,
         "type": 0,
         "price": 250,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
       },
       {
@@ -327,7 +327,7 @@
         "number": 3,
         "type": 1,
         "price": 300,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
       },
       {
@@ -335,7 +335,7 @@
         "number": 4,
         "type": 1,
         "price": 300,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
       },
       {
@@ -343,7 +343,7 @@
         "number": 5,
         "type": 2,
         "price": 350,
-        "isAvailable": true,
+        
         "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
       },
       {
@@ -351,7 +351,7 @@
         "number": 6,
         "type": 2,
         "price": 350,
-        "isAvailable": true,
+        
         "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
       },
       {
@@ -359,7 +359,7 @@
         "number": 7,
         "type": 3,
         "price": 450,
-        "isAvailable": false,
+        
         "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
       },
       {
@@ -367,7 +367,7 @@
         "number": 8,
         "type": 3,
         "price": 450,
-        "isAvailable": false,
+        
         "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
       }
     ]
@@ -384,7 +384,7 @@
         "number": 1,
         "type": 0,
         "price": 250,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
       },
       {
@@ -392,7 +392,7 @@
         "number": 2,
         "type": 0,
         "price": 250,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
       },
       {
@@ -400,7 +400,7 @@
         "number": 3,
         "type": 1,
         "price": 300,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
       },
       {
@@ -408,7 +408,7 @@
         "number": 4,
         "type": 1,
         "price": 300,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
       },
       {
@@ -416,7 +416,7 @@
         "number": 5,
         "type": 2,
         "price": 350,
-        "isAvailable": true,
+        
         "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
       },
       {
@@ -424,7 +424,7 @@
         "number": 6,
         "type": 2,
         "price": 350,
-        "isAvailable": true,
+        
         "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
       },
       {
@@ -432,7 +432,7 @@
         "number": 7,
         "type": 3,
         "price": 450,
-        "isAvailable": false,
+        
         "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
       },
       {
@@ -440,7 +440,7 @@
         "number": 8,
         "type": 3,
         "price": 450,
-        "isAvailable": false,
+        
         "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
       }
     ]
@@ -457,7 +457,7 @@
         "number": 1,
         "type": 0,
         "price": 250,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
       },
       {
@@ -465,7 +465,7 @@
         "number": 2,
         "type": 0,
         "price": 250,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
       },
       {
@@ -473,7 +473,7 @@
         "number": 3,
         "type": 1,
         "price": 300,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
       },
       {
@@ -481,7 +481,7 @@
         "number": 4,
         "type": 1,
         "price": 300,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
       },
       {
@@ -489,7 +489,7 @@
         "number": 5,
         "type": 2,
         "price": 350,
-        "isAvailable": true,
+        
         "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
       },
       {
@@ -497,7 +497,7 @@
         "number": 6,
         "type": 2,
         "price": 350,
-        "isAvailable": true,
+        
         "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
       },
       {
@@ -505,7 +505,7 @@
         "number": 7,
         "type": 3,
         "price": 450,
-        "isAvailable": false,
+        
         "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
       },
       {
@@ -513,7 +513,7 @@
         "number": 8,
         "type": 3,
         "price": 450,
-        "isAvailable": false,
+        
         "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
       }
     ]
@@ -530,7 +530,7 @@
         "number": 1,
         "type": 0,
         "price": 250,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
       },
       {
@@ -538,7 +538,7 @@
         "number": 2,
         "type": 0,
         "price": 250,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
       },
       {
@@ -546,7 +546,7 @@
         "number": 3,
         "type": 1,
         "price": 300,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
       },
       {
@@ -554,7 +554,7 @@
         "number": 4,
         "type": 1,
         "price": 300,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
       },
       {
@@ -562,7 +562,7 @@
         "number": 5,
         "type": 2,
         "price": 350,
-        "isAvailable": true,
+        
         "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
       },
       {
@@ -570,7 +570,7 @@
         "number": 6,
         "type": 2,
         "price": 350,
-        "isAvailable": true,
+        
         "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
       },
       {
@@ -578,7 +578,7 @@
         "number": 7,
         "type": 3,
         "price": 450,
-        "isAvailable": false,
+        
         "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
       },
       {
@@ -586,7 +586,7 @@
         "number": 8,
         "type": 3,
         "price": 450,
-        "isAvailable": false,
+        
         "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
       }
     ]
@@ -603,7 +603,7 @@
         "number": 1,
         "type": 0,
         "price": 250,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
       },
       {
@@ -611,7 +611,7 @@
         "number": 2,
         "type": 0,
         "price": 250,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
       },
       {
@@ -619,7 +619,7 @@
         "number": 3,
         "type": 1,
         "price": 300,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
       },
       {
@@ -627,7 +627,7 @@
         "number": 4,
         "type": 1,
         "price": 300,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
       },
       {
@@ -635,7 +635,7 @@
         "number": 5,
         "type": 2,
         "price": 350,
-        "isAvailable": true,
+        
         "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
       },
       {
@@ -643,7 +643,7 @@
         "number": 6,
         "type": 2,
         "price": 350,
-        "isAvailable": true,
+        
         "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
       },
       {
@@ -651,7 +651,7 @@
         "number": 7,
         "type": 3,
         "price": 450,
-        "isAvailable": false,
+        
         "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
       },
       {
@@ -659,7 +659,7 @@
         "number": 8,
         "type": 3,
         "price": 450,
-        "isAvailable": false,
+        
         "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
       }
     ]
@@ -676,7 +676,7 @@
         "number": 1,
         "type": 0,
         "price": 250,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
       },
       {
@@ -684,7 +684,7 @@
         "number": 2,
         "type": 0,
         "price": 250,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381163.jpg"
       },
       {
@@ -692,7 +692,7 @@
         "number": 3,
         "type": 1,
         "price": 300,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
       },
       {
@@ -700,7 +700,7 @@
         "number": 4,
         "type": 1,
         "price": 300,
-        "isAvailable": true,
+        
         "imageURL": "https://hotelcrystalsaintgermainparis.com/_novaimg/galleria/1381168.jpg"
       },
       {
@@ -708,7 +708,7 @@
         "number": 5,
         "type": 2,
         "price": 350,
-        "isAvailable": true,
+        
         "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
       },
       {
@@ -716,7 +716,7 @@
         "number": 6,
         "type": 2,
         "price": 350,
-        "isAvailable": true,
+        
         "imageURL": "https://www.mits.ru/images/pics/112185-rixos_krasnaya_polyana_sochi.jpg"
       },
       {
@@ -724,7 +724,7 @@
         "number": 7,
         "type": 3,
         "price": 450,
-        "isAvailable": false,
+        
         "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
       },
       {
@@ -732,7 +732,7 @@
         "number": 8,
         "type": 3,
         "price": 450,
-        "isAvailable": false,
+        
         "imageURL": "https://galeriemagazine.com/wp-content/uploads/2019/03/243f89e0-8235-11e7-a767-bc310e55dd10_1320x770_154749.jpg"
       }
     ]

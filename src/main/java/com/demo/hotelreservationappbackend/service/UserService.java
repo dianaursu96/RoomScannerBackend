@@ -1,25 +1,18 @@
 package com.demo.hotelreservationappbackend.service;
 
-import com.demo.hotelreservationappbackend.dtos.ProfileUpdateRequestDTO;
-import com.demo.hotelreservationappbackend.dtos.ReservationCreateRequestDTO;
-import com.demo.hotelreservationappbackend.dtos.ReviewCreateRequestDTO;
-import com.demo.hotelreservationappbackend.dtos.RoomsAvailabilityRequestDTO;
-import com.demo.hotelreservationappbackend.errors.EmailUsedException;
-import com.demo.hotelreservationappbackend.errors.InvalidEmailException;
-import com.demo.hotelreservationappbackend.errors.ResourceNotFoundException;
-import com.demo.hotelreservationappbackend.errors.ReviewPermissionException;
+import com.demo.hotelreservationappbackend.dtos.*;
+import com.demo.hotelreservationappbackend.errors.*;
 import com.demo.hotelreservationappbackend.models.*;
 import com.demo.hotelreservationappbackend.repositories.*;
 import com.demo.hotelreservationappbackend.security.UserDetailsImplementation;
-import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.web.bind.annotation.RequestBody;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -54,7 +47,7 @@ public class UserService {
         if (profileUpdateRequestDTO.getLastName() != null) {
             loggedInUser.setLastName(profileUpdateRequestDTO.getLastName());
         }
-        if (profileUpdateRequestDTO.getEmail() != null) {
+        if (profileUpdateRequestDTO.getEmail() != null && !profileUpdateRequestDTO.getEmail().equals(loggedInUser.getEmail())) {
             if (userRepository.existsByEmail(profileUpdateRequestDTO.getEmail())) {
                 throw new EmailUsedException("Email is already in use.");
             }
@@ -67,33 +60,7 @@ public class UserService {
         return loggedInUser;
     }
 
-    @Transactional
-    public Hotel retrieveHotelById (Integer hotelId) {
-        return hotelRepository.findById(hotelId)
-                .orElseThrow(() -> new ResourceNotFoundException("Hotel not found with ID: " + hotelId));
-    }
 
-    @Transactional
-    public List<Room> retrieveRoomsByHotelId (Integer hotelId) {
-        return roomRepository.findByHotelId(hotelId);
-    }
-    @Transactional
-    public List<Room> getRoomsAvailabilityForPeriodForHotel(RoomsAvailabilityRequestDTO roomsAvailabilityRequestDTO) {
-        List<Room> rooms = retrieveRoomsByHotelId(roomsAvailabilityRequestDTO.getHotelId());
-
-        for (Room room : rooms) {
-            boolean isAvailable = true;
-            for (Reservation reservation : room.getReservations()) {
-                if (reservationsOverlap(roomsAvailabilityRequestDTO.getCheckin(), roomsAvailabilityRequestDTO.getCheckout(), reservation.getCheckin(), reservation.getCheckout())) {
-                    isAvailable = false;
-                    break;
-                }
-            }
-            room.setIsAvailable(isAvailable);
-        }
-        return rooms;
-
-    }
 
     @Transactional
     public Review createReviewForLoggedInUser(ReviewCreateRequestDTO reviewCreateRequestDTO) {
@@ -117,27 +84,63 @@ public class UserService {
     }
 
     @Transactional
-    public Reservation createReservationForLoggedInUser(ReservationCreateRequestDTO reservationCreateRequestDTO) {
+    public void deleteReviewForLoggedInUser(Integer reviewId) {
+        reviewRepository.findById(reviewId)
+                .orElseThrow(() -> new ResourceNotFoundException("Review not found with id " + reviewId));
+        reviewRepository.deleteById(reviewId);
+    }
+
+
+    @Transactional
+    public ReservationCreateResponseDTO createReservationForLoggedInUser(Integer roomId, LocalDateTime checkin, LocalDateTime checkout) {
         User user = getLoggedInUser();
-        Integer roomId = reservationCreateRequestDTO.getRoomId();
 
         Room room = roomRepository.findById(roomId)
                 .orElseThrow(() -> new ResourceNotFoundException("Room not found with ID: " + roomId));
         List<Reservation> roomReservations = room.getReservations();
-        LocalDateTime checkin = reservationCreateRequestDTO.getCheckin();
-        LocalDateTime checkout = reservationCreateRequestDTO.getCheckout();
         for (Reservation reservation : roomReservations) {
             if (reservationsOverlap(checkin, checkout, reservation.getCheckin(), reservation.getCheckout())) {
                 throw new RuntimeException("Room is not available for the specified period.");
             }
         }
+        // set reservation in database
         Reservation newReservation = new Reservation();
         newReservation.setCheckin(checkin);
         newReservation.setCheckout(checkout);
         newReservation.setRoom(room);
         newReservation.setUser(user);
-        return reservationRepository.save(newReservation);
+        reservationRepository.save(newReservation);
+
+        // set responseDTO
+        ReservationCreateResponseDTO reservationCreateResponseDTO = new ReservationCreateResponseDTO();
+        reservationCreateResponseDTO.setRoomId(roomId);
+        reservationCreateResponseDTO.setCheckin(checkin);
+        reservationCreateResponseDTO.setCheckout(checkout);
+        reservationCreateResponseDTO.setFirstName(user.getFirstName());
+        reservationCreateResponseDTO.setLastName(user.getLastName());
+        reservationCreateResponseDTO.setEmail(user.getEmail());
+        return reservationCreateResponseDTO;
     }
+
+    @Transactional
+    public void deleteReservationForLoggedInUser(Integer reservationId) {
+        Reservation reservation = reservationRepository.findById(reservationId)
+                .orElseThrow(() -> new ResourceNotFoundException("Reservation not found with id " + reservationId));
+
+        // verify if he is allowed to cancel (local datetime now + 2h is after reservation.checkin)
+        if (LocalDateTime.now().plusHours(2).isAfter(reservation.getCheckin())) {
+            throw new ReservationCancellationException("Reservation can be canceled up to 2 hours before check-in");
+        }
+        reservationRepository.deleteById(reservationId);
+    }
+
+    @Transactional
+    public Hotel retrieveHotelById (Integer hotelId) {
+        return hotelRepository.findById(hotelId)
+                .orElseThrow(() -> new ResourceNotFoundException("Hotel not found with ID: " + hotelId));
+    }
+
+    // helpers
 
     public boolean hasRightToLeaveReview(User user, Integer hotelId) {
         List<Reservation> reservations = user.getReservations();
@@ -151,6 +154,7 @@ public class UserService {
         }
         return false;
     }
+
     private boolean reservationsOverlap(LocalDateTime checkin1, LocalDateTime checkout1, LocalDateTime checkin2, LocalDateTime checkout2) {
         return checkin1.isBefore(checkout2) && checkout1.isAfter(checkin2);
     }
@@ -158,7 +162,6 @@ public class UserService {
     private boolean isValidEmail(String email) {
         return email != null && email.contains("@") && email.contains(".");
     }
-
 
 
 }
