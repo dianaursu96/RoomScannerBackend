@@ -2,18 +2,12 @@ package com.demo.hotelreservationappbackend.service;
 
 
 import com.demo.hotelreservationappbackend.dtos.HotelInRangeResponseDTO;
-import com.demo.hotelreservationappbackend.dtos.LocationRequestDTO;
 import com.demo.hotelreservationappbackend.models.Hotel;
 import com.demo.hotelreservationappbackend.models.Review;
 import com.demo.hotelreservationappbackend.repositories.HotelRepository;
-import com.demo.hotelreservationappbackend.repositories.ReviewRepository;
-import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestParam;
 
-import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 

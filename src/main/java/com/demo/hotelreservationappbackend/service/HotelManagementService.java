@@ -1,11 +1,9 @@
 package com.demo.hotelreservationappbackend.service;
 
-import com.demo.hotelreservationappbackend.dtos.ReservationDetailsDTO;
 import com.demo.hotelreservationappbackend.dtos.RoomAvailabilityResponseDTO;
 import com.demo.hotelreservationappbackend.errors.ResourceNotFoundException;
 import com.demo.hotelreservationappbackend.models.Hotel;
 import com.demo.hotelreservationappbackend.models.Reservation;
-import com.demo.hotelreservationappbackend.models.Review;
 import com.demo.hotelreservationappbackend.models.Room;
 import com.demo.hotelreservationappbackend.repositories.HotelRepository;
 import com.demo.hotelreservationappbackend.repositories.RoomRepository;

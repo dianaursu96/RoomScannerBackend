@@ -21,7 +21,7 @@ public class HotelReservationAppBackendApplication {
     @Bean
     CommandLineRunner runner(HotelManagementService hotelManagementService) {
         return args -> {
-            // read json and write to db
+            // read json and write hotels and rooms to db
             ObjectMapper mapper = new ObjectMapper();
             TypeReference<List<Hotel>> typeReference = new TypeReference<>(){};
             InputStream inputStream = TypeReference.class.getResourceAsStream("/json/hotels.json");

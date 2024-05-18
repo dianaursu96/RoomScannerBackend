@@ -1,6 +1,5 @@
 package com.demo.hotelreservationappbackend.controllers;
 
-
 import com.demo.hotelreservationappbackend.service.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

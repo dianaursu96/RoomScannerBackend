@@ -1,8 +1,6 @@
 package com.demo.hotelreservationappbackend.service;
 
-import com.demo.hotelreservationappbackend.errors.ReservationCancellationException;
 import com.demo.hotelreservationappbackend.errors.ResourceNotFoundException;
-import com.demo.hotelreservationappbackend.models.Reservation;
 import com.demo.hotelreservationappbackend.models.User;
 import com.demo.hotelreservationappbackend.repositories.ReservationRepository;
 import com.demo.hotelreservationappbackend.repositories.ReviewRepository;
@@ -11,7 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.time.LocalDateTime;
 
 @Service
 public class AdminService {
