@@ -100,7 +100,7 @@ public class UserService {
         List<Reservation> roomReservations = room.getReservations();
         for (Reservation reservation : roomReservations) {
             if (reservationsOverlap(checkin, checkout, reservation.getCheckin(), reservation.getCheckout())) {
-                throw new RuntimeException("Room is not available for the specified period.");
+                throw new RoomNotAvailableException("Room is not available for the specified period.");
             }
         }
         // set reservation in database
@@ -134,6 +134,31 @@ public class UserService {
         reservationRepository.deleteById(reservationId);
     }
 
+
+
+    public List<ReservationDetailsDTO> getReservationsDetailsForLoggedInUser() {
+        User loggedInUser = getLoggedInUser();
+        List<Reservation> reservations = loggedInUser.getReservations();
+        List<ReservationDetailsDTO> reservationsDetails = new ArrayList<>();
+
+        for (Reservation reservation : reservations) {
+            ReservationDetailsDTO reservationDetails = new ReservationDetailsDTO();
+            reservationDetails.setReservation(reservation);
+
+            Room room = reservation.getRoom();
+            reservationDetails.setRoomType(room.getType());
+            reservationDetails.setPrice(room.getPrice());
+
+            Hotel hotel = room.getHotel();
+            reservationDetails.setHotelId(hotel.getId());
+            reservationDetails.setHotelName(hotel.getName());
+
+            reservationDetails.setStatus(getReservationStatus(reservation));
+            reservationsDetails.add(reservationDetails);
+        }
+        return reservationsDetails;
+    }
+
     @Transactional
     public Hotel retrieveHotelById (Integer hotelId) {
         return hotelRepository.findById(hotelId)
@@ -161,6 +186,17 @@ public class UserService {
 
     private boolean isValidEmail(String email) {
         return email != null && email.contains("@") && email.contains(".");
+    }
+
+    private String getReservationStatus(Reservation reservation) {
+        LocalDateTime now = LocalDateTime.now();
+        if (now.isBefore(reservation.getCheckin())) {
+            return "Upcoming";
+        } else if (now.isAfter(reservation.getCheckout())) {
+            return "Completed";
+        } else {
+            return "In process";
+        }
     }
 
 

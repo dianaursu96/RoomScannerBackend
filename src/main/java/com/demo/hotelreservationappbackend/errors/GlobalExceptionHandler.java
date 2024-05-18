@@ -39,7 +39,7 @@ public class GlobalExceptionHandler {
     }
     @ExceptionHandler(RoomNotAvailableException.class)
     public ResponseEntity<String> handleRoomNotAvailableException(RoomNotAvailableException ex) {
-        return new ResponseEntity<>(ex.getMessage(), HttpStatus.CONFLICT);
+        return new ResponseEntity<>(ex.getMessage(), HttpStatus.BAD_REQUEST);
     }
     @ExceptionHandler(ReservationCancellationException.class)
     public ResponseEntity<String> handleReservationCancellationException(ReservationCancellationException ex) {

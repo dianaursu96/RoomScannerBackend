@@ -43,7 +43,6 @@ public class UserController {
     }
 
     @PostMapping("/reservation/create")
-    @PreAuthorize("hasAnyAuthority('USER', 'ADMIN')")
     public ResponseEntity<ReservationCreateResponseDTO> createReservationForLoggedInUser(@RequestParam Integer roomId,
                                                                                          @RequestParam LocalDateTime checkin,
                                                                                          @RequestParam LocalDateTime checkout) {
@@ -51,10 +50,14 @@ public class UserController {
         return ResponseEntity.ok(reservationCreateResponseDTO);
     }
     @DeleteMapping("/reservation/delete/{reservationId}")
-    @PreAuthorize("hasAnyAuthority('USER', 'ADMIN')")
     public ResponseEntity<?> deleteReservationForLoggedInUser(@PathVariable Integer reservationId) {
         userService.deleteReservationForLoggedInUser(reservationId);
         return ResponseEntity.ok("Reservation canceled successfully!");
+    }
+    @GetMapping("/reservations")
+    public ResponseEntity<List<ReservationDetailsDTO>> getReservationsDetailsForLoggedInUser() {
+        List<ReservationDetailsDTO> reservationsDetails = userService.getReservationsDetailsForLoggedInUser();
+        return ResponseEntity.ok(reservationsDetails);
     }
 
 
